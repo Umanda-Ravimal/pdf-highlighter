@@ -2,11 +2,12 @@
 import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
+import { ViewSource } from './view-source';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="my-pdf-highlighter-project" />
+      <ViewSource/>
     </div>
   );
 }
